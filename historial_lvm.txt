@@ -1,80 +1,44 @@
-  898  sudo umount /dev/sdc
-  899  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc
-  900  sudo umount /dev/sdc*
-  901  sudo umount -l /media/jere22/Ventoy
-  902  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc1
-  903  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
-  904  cd
-  905  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
-  906  sudo dd if=/dev/zero of=/dev/sdc bs=1M count=10 status=progress && sync
-  907  sudo mkfs.vfat -I -F 32 -n Pendrive /dev/sdc
-  908  lsblk
-  909  sudo apt update && sudo apt install lvm2
-  910  sudo fdisk /dev/sdc
-  911  sudo umount /dev/sdc*
-  912  sudo fdisk /dev/sdc
-  913  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final/principal.py
-  914  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final_prueba/principal.py
-  915  lsblk
-  916  sudo mkswap /dev/sdc1
-  917  sudo swapon /dev/sdc1
-  918  free -h
-  919  sudo wipefs -a /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
-  920  sudo pvcreate /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
-  921  sudo pvs
-  922  sudo vgcreate vg_datos /dev/sdc2 /dev/sdc3
-  923  sudo vgcreate vg_web /dev/sdc5 /dev/sdc6
-  924  sudo vgs
-  925  sudo lvcreate -L 1G vg_web -n lv_web1
-  926  sudo lvcreate -L 512M vg_web -n lv_web2
-  927  sudo lvcreate -L 512M vg_web -n lv_web3
-  928  sudo lvs
-  929  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
-  930  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
-  931  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
-  932  lsblk
-  933  cd TP2_Papadopulos_Jeremias/
-  934  git clone https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
-  935  cd TP2_Papadopulos_Jeremias/
-  936  sudo pvs > pvs.txt
-  937  sudo vgs > vgs.txt
-  938  sudo lvs > lvs.txt
-  939  history > historial_lvm.txt
-  940  git add .
-  941  git commit -m "Entrega de reportes LVM y Swap - TP2"
-  942  git push origin main
-  943  cd ..
-  944  cd
-  945  clear
-  946  mkdir espacio_de_trabajo
-  947  cd espacio_de_trabajo/
-  948  git init
-  949  git branch -m main
-  950  sudo pvs > pvs.txt
-  951  sudo vgs > vgs.txt
-  952  sudo lvs > lvs.txt
-  953  history > historial_lvm.txt
-  954  ls -l
-  955  git remote add origin https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
-  956  git add .
-  957  git commit -m "Entrega oficial TP2 - Papadopulos Jeremias"
-  958  git push -u origin main
-  959  git config --global user.email "jeremiaspapado@gmail.com"
-  960  git config --global user.name "jeremiaspapado-prog"
-  961  git config --global user.email "jeremiaspapado@gmail.com"
-  962  rm -rf .git
-  963  git init
-  964  git branch -m main
-  965  git remote add origin https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
-  966  git add .
-  967  git commit -m "Entrega oficial TP2 - Papadopulos Jeremias"
-  968  git push -u origin main -f
-  969  clear
-  970  cd
-  971  rm -rf espacio_de_trabajo
-  972  mkdir espacio_de_entrega
-  973  cd espacio_de_entrega
-  974  sudo pvs > pvs.txt
-  975  sudo vgs > vgs.txt
-  976  sudo lvs > lvs.txt
-  977  history > historial_lvm.txt
+ 898  sudo umount /dev/sdc
+ 899  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc
+ 900  sudo umount /dev/sdc*
+ 901  sudo umount -l /media/jere22/Ventoy
+ 902  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc1
+ 903  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
+ 904  cd
+ 905  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
+ 906  sudo dd if=/dev/zero of=/dev/sdc bs=1M count=10 status=progress && sync
+ 907  sudo mkfs.vfat -I -F 32 -n Pendrive /dev/sdc
+ 908  lsblk
+ 909  sudo apt update && sudo apt install lvm2
+ 910  sudo fdisk /dev/sdc
+ 911  sudo umount /dev/sdc*
+ 912  sudo fdisk /dev/sdc
+ 913  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final/principal.py
+ 914  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final_prueba/principal.py
+ 915  lsblk
+ 916  sudo mkswap /dev/sdc1
+ 917  sudo swapon /dev/sdc1
+ 918  free -h
+ 919  sudo wipefs -a /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
+ 920  sudo pvcreate /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
+ 921  sudo pvs
+ 922  sudo vgcreate vg_datos /dev/sdc2 /dev/sdc3
+ 923  sudo vgcreate vg_web /dev/sdc5 /dev/sdc6
+ 924  sudo vgs
+ 925  sudo lvcreate -L 1G vg_web -n lv_web1
+ 926  sudo lvcreate -L 512M vg_web -n lv_web2
+ 927  sudo lvcreate -L 512M vg_web -n lv_web3
+ 928  sudo lvs
+ 929  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+ 930  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+ 931  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+ 932  lsblk
+ 933  git clone https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
+ 934  cd TP2_Papadopulos_Jeremias/
+ 935  sudo pvs > pvs.txt
+ 936  sudo vgs > vgs.txt
+ 937  sudo lvs > lvs.txt
+ 938  history > historial_lvm.txt
+ 939  git add .
+ 940  git commit -m "Entrega de reportes LVM y Swap - TP2"
+ 941  git push origin main
