@@ -1,0 +1,977 @@
+    1  sudo apt update
+    2  su
+    3  su -l
+    4  flatpak run org.flycast.Flycast
+    5  su
+    6  flatpak run org.flycast.Flycast
+    7  exit
+    8  flatpak run org.flycast.Flycast
+    9  glxinfo | grep OpenGL
+   10  sudo apt update
+   11  su
+   12  su -l
+   13  flatpak run org.flycast.Flycast
+   14  glxinfo | grep OpenGL
+   15  glxinfo | grep OpenGL
+   16  flatpak run org.flycast.Flycast
+   17  glxinfo | grep "OpenGL"~
+   18  glxinfo | grep "OpenGL"
+   19  su -l
+   20  su
+   21  su -l
+   22  clear
+   23  mv ~/Descargas/juegos_ps1 ~/roms/
+   24  mv ~/Descargas/juegos_snes_esp ~/roms/
+   25  mv ~/Descargas/juegos_megadrive_esp ~/roms/
+   26  ls -ld ~/roms
+   27  ls -l ~/roms
+   28  sudo chown -R $USER:$USER ~/roms
+   29  su -
+   30  mv ~/Descargas/juegos_megadrive_esp ~/roms/
+   31  ls ~/Descargas
+   32  ld
+   33  ls
+   34  unrar x '!!!Roms Español Listos PC ENGINE!!!.rar'
+   35  ls
+   36  unzip 'nes.7z'
+   37  gamemoded -s
+   38  gamemoderun flatpak run org.libretro.RetroArch
+   39  sudo apt update
+   40  su -l
+   41  gamemoderun retroarch
+   42  gamemoded -s
+   43  sudo apt update
+   44  gamemoderun flatpak run org.libretro.RetroArch
+   45  sdf
+   46  apt install xdg-desktop-portal xdg-desktop-portal-gtk dbus-x11
+   47  sudo apt install xdg-desktop-portal xdg-desktop-portal-gtk dbus-x11
+   48  su -l
+   49  glxinfo | grep "renderer"
+   50  echo $XDG_SESSION_TYPE
+   51  rm -rf "/home/jere22/.steam/debian-installation/steamapps/common/Half-Life/cstrike"
+   52  rm -rf "/home/jere22/.steam/debian-installation/steamapps/common/Half-Life/valve"
+   53  rm -rf ~/.steam/debian-installation/userdata/*/10
+   54  rm -rf ~/.steam/debian-installation/userdata/*/70
+   55  sudo apt install ./discord-*.deb
+   56  su -l
+   57  flatpak install flathub com.discordapp.Discord
+   58  discord
+   59  clear
+   60  discord --disable-gpu --disable-software-rasterizer
+   61  unzip fbneo_1003_bestset.zip
+   62  unzip fbneo_1_0_0_3_best.zip
+   63  sudo apt install linux-image6.1-amd64
+   64  su -l
+   65  unjame .r
+   66  sudo systemctl restart display-manager
+   67  su -l
+   68  glxinfo | grep "OpenGL renderer
+   69  glxinfo | grep "OpenGL renderer"
+   70  su -l
+   71  glxinfo | grep "OpenGL renderer"
+   72  su -l
+   73  glxinfo -B
+   74  sudo apt install xserver-xorg-video-intel
+   75  su -l
+   76  glxinfo | grep "OpenGL renderer"
+   77  su -l
+   78  export MESA_LOADER_DRIVER_OVERRIDE=i965
+   79  glxinfo -B
+   80  reboot
+   81  reebot
+   82  su -l
+   83  glxinfo -B
+   84  glxinfo | grep "OpenGL renderer"
+   85  sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+   86  su -l
+   87  glxinfo | grep "OpenGL renderer"
+   88  reboot
+   89  su -l
+   90  glxinfo | grep "OpenGL renderer"
+   91  re
+   92  sudo systemctl restart display-manager
+   93  su -l
+   94  sudo apt install xserver-xorg-video-intel mesa-utils
+   95  su -l
+   96  export MESA_LOADER_DRIVER_OVERRIDE=i965
+   97  glxinfo -B
+   98  unset MESA_LOADER_DRIVER_OVERRIDE
+   99  unset LIBGL_ALWAYS_SOFTWARE
+  100  echo $MESA_LOADER_DRIVER_OVERRIDE
+  101  sudo apt install libgl1-mesa-dri libglx-mesa0 mesa-utils xserver-xorg-video-intel xserver-xorg-core
+  102  su -l
+  103  glxinfo -B
+  104  reboot
+  105  su -l
+  106  glxinfo -B
+  107  glxinfo -B
+  108  lspci -k | grep -A3 VGA
+  109  dmesg | grep -i i915
+  110  su -l
+  111  glxinfo | grep "OpenGL renderer"
+  112  glxinfo -B
+  113  ping google.com 
+  114  glxinfo | grep VGA
+  115  glxinfo | grep "VGA3D"
+  116  glxinfo | grep "OpenGL renderer"
+  117  su -l
+  118  sudo apt update
+  119  sudo apt upgrade
+  120  sudo reboot 
+  121  sudo apt purge xserver-xorg-video-intel
+  122  sudo apt update
+  123  echo $XDG_SESSION_TYPE
+  124  lspci -k | grep -A 3 -E "VGA|3D"
+  125  sudo rm /etc/X11/xorg.conf.d/20-g41.conf 
+  126  sudo apt update
+  127  sudo aps install firmware-misc-nonfree intel-microcode
+  128  sudo apt install firmware-misc-nonfree intel-microcode
+  129  sudo apt autoremove
+  130  sudo apt install firmware-misc-nonfree intel-microcode
+  131  clear
+  132  sudo apt install firmware-misc-nonfree intel-microcode
+  133  sudo apt purge xserver-xorg-video-intel
+  134  sudo reboot
+  135  glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+  136  sudo apt update
+  137  sudo apt install --reinstall libgl1-mesa-dri libglx-mesa0 mesa-va-drivers mesa-vdpau-drivers
+  138  sudo nano /etc/modules
+  139  sudo update-initramfs -u
+  140  sudo reboot
+  141  glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+  142  sudo rm /etc/X11/xorg.conf.d/00-force-hw.conf 
+  143  sudo rm /etc/X11/xorg.conf.d/
+  144  mc
+  145  sudo nano /etc/X11/xorg.conf.d/20-video.conf
+  146  sudo reboot
+  147  glxinfo | grep -E "OpenGL vendor|OpenGL renderer"
+  148  sudo ret
+  149  ls
+  150  clear
+  151  RetroArch
+  152  flatpak run org.libretro.RetroArch --menu --driver gl
+  153  flatpak run org.libretro.retroarch --menu --driver gl
+  154  flatpak run org.libretro.RetroArch --menu --driver gl
+  155  clear
+  156  flatpak run org.libretro.RetroArch --menu --driver gl
+  157  flatpak run org.libretro.RetroArch --verbose -v
+  158  su
+  159  flatpak update
+  160  clear
+  161  flatpak repair
+  162  tfthfh
+  163  sudo systemctl restart display-manager
+  164  sudo
+  165  xfconf-query -c xfwm4 -p /general/use_compositing -s false
+  166  xfconf-query -c xfwm4 -p /general/use_compositing -s true
+  167  journalctl -b 0 -e | grep -iE "kernel|xorg|retroarch" | tail -n 30
+  168  flatpak override --user --device=all --share=ipc org.libretro.RetroArch
+  169  flatpak update
+  170  flatpak override --user --socket=x11 --socket=fallback-x11 --device=all org.libretro.RetroArch
+  171  sudo usermod -aG video,render $USER
+  172  flatpak repair
+  173  flatpak update
+  174  flatpak uninstall --unused
+  175  flatpak override --user --filesystem=/tmp org.libretro.RetroArch
+  176  flatpak override --user --filesystem=xdg-run/dconf org.libretro.RetroArch
+  177  mv ~/.var/app/org.libretro.RetroArch/config/retroarch/retroarch.cfg ~/.var/app/org.libretro.RetroArch/config/retroarch/retroarch_old.cfg
+  178  sudo snap install discord
+  179  sudo apt update && sudo apt upgrade -y
+  180  sudo nano /etc/default/grub
+  181  sudo update-grub
+  182  sudo dpkg --configure -a
+  183  sudo apt-get install -f
+  184  ls
+  185  cd Descargas
+  186  wget "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
+  187  sudo apt install ./discord.deb
+  188  sudo apt autoremove -y
+  189  sudo dpkg --remove --force-remove-reinstreq linux-image-6.1.0-42-amd64
+  190  sudo rm -f /etc/kernel/postrm.d/z50-raspi-firmware
+  191  sudo dpkg --remove --force-all linux-image-6.1.0-42-amd64
+  192  sudo apt-get install -f
+  193  sudo apt autoremove -y
+  194  sudo update-grub
+  195  discord
+  196  clear
+  197  nano ~/.config/discord/settings.json
+  198  discord --disable-gpu --no-sandbox
+  199  clear
+  200  pkill discord
+  201  nano ~/.config/discord/settings.json
+  202  discord --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --no-sandbox
+  203  ps aux | grep -i discord
+  204  pkill discord
+  205  sudo apt install htop
+  206  htop
+  207  sudo apt install ntp -y
+  208  sudo service ntp restart
+  209  sudo apt install dnsutils -y
+  210  clear
+  211  man man
+  212  free -h
+  213  sudo fallocate -l 4G /swapfile_extra
+  214  sudo chmod 600 /swapfile_extra
+  215  sudo mkswap /swapfile_extra
+  216  sudo swapon /swapfile_extra
+  217  ls -lh /swapfile_extra
+  218  sudo cp /etc/fstab /etc/fstab.bak
+  219  sudo nano /etc/fstab
+  220  sudo mount -a
+  221  sudo swapon -show
+  222  sudo systemctl daemon-reload
+  223  swapon --show
+  224  sudo swapon --show
+  225  sudo chown root:root /swapfile_extra
+  226  sudo chmod 600 /swapfile_extra
+  227  sudo systemctl restart
+  228  sudo systemctl restart lightdm
+  229  ssh-keygen -t ed25519
+  230  cat $HOME/.ssh/*.pub
+  231  cd
+  232  mkdir repogit
+  233  cd repogit
+  234  git clone <git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git>
+  235  git clone git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git
+  236  sudo apt update
+  237  sudo apt install git
+  238  git clone git@github.com:jeremiaspapado-prog/TP1_AySO_Papadopulos_Jeremias.git
+  239  cd TP1_AySO_Papadopulos_Jeremias/
+  240  pwd 
+  241  s -l 
+  242  ñs -l
+  243  ls -l
+  244  cat /etc/os-release
+  245  man grep
+  246  grep -i "HOME_URL" /etc/os-release
+  247  grep HOME_URL /etc/os-release
+  248  grep home_url /etc/os-release
+  249  grep -i  Home_url /etc/os-release 
+  250  grep -i Home_url /etc/os-release >
+  251  datos_url.txt 
+  252  grep -i "HOME_URL" /etc/os-release > datos_url.txt
+  253  cat datos_url.txt
+  254  whoami 
+  255  echo “Usuario=$(whoami)” > datos_usuario.txt 
+  256  git add . 
+  257  git config --global user.email "TU-email"
+  258  git config --global user.name "Tu-
+  259  Usuario"
+  260  Arquitectura y Sistemas Operativos
+  261  TP1 - Creación repo Git y comandos básicos
+  262  6
+  263  Punto 4. Subir los archivos creados al repositorio de GitHub
+  264  ● Agregar todos los archivos generados en el Staging Area del repositorio local de git.
+  265  git add . agregamos todos los archivos al staging
+  266  git config --global user.email "TU-email"
+  267  git config --global user.name "Tu-
+  268  Usuario"
+  269  configuramos el usuario de git
+  270  git commit -m "ADD: agregado 1er
+  271  ejercicio sobre datos_usuario.txt" realizamos el commit Según las buenas prácticas
+  272  https://www.conventionalcommits.org/es/v1.0.0-beta.3/
+  273  git status
+  274  git status
+  275  git push
+  276  git config --global user.email "jeremiaspapadopulos@gmail.com"
+  277  git config --global user.name "Jeremías Papadopulos"
+  278  git commit --amend --reset-author --no-edit
+  279  git push --force
+  280  git log
+  281  cpuinfo
+  282  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  283  cat datos_usuario.txt
+  284  git add datos_usuario.txt
+  285  git commit -m "feat: Añadiendo información de CPU"
+  286  git push
+  287  cat <<EOF >> README.md
+  288  Alumno: Jeremías Papadopulos
+  289  División: 4
+  290  EOF
+  291  cat <EOF >> README.md
+  292  cat <<EOF > README.md
+  293  Alumno: Jeremías Papadopulos
+  294  División: 114
+  295  Turno: Mañana
+  296  EOF
+  297  cat README.md
+  298  git add README.md datos_usuario.txt
+  299  git push
+  300  git status
+  301  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  302  git push
+  303  git status
+  304  mkdir -p materia{1,2}/uni{1,2,3}
+  305  rm -rf materia1 materia2
+  306  cd..
+  307  cd ..
+  308  pwd
+  309  mkdir -p ~/materia{1,2}/uni{1,2,3}
+  310  ls 
+  311  cd materia1
+  312  ls
+  313  cd ..
+  314  cd materia2
+  315  ls
+  316  cat <<EOF > script_dir.sh
+  317  #!/bin/bash
+  318  mkdir -p ~/materia{1,2}/uni{1,2,3}
+  319  EOF
+  320  chmod +x script_dir.sh
+  321  git add .
+  322  cd ~/repogit/TP1_AySO_Papadopulos_Jeremias
+  323  mv ~/materia2/script_dir.sh .
+  324  git add script_dir.sh
+  325  git commit -m "ADD: Añadiendo script"
+  326  git push
+  327  history -a
+  328  cp ~/.bash_history ./Historial_comandos_Papadopulos.txt
+  329  git add .
+  330  git commit -m "ADD: Historial de comandos de Papadopulos"
+  331  git push
+  332  sudo apt update
+  333  sudo apt install luanti
+  334  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  335  flatpak install flathub net.minetest.Minetest
+  336  sudo apt remove --purge luanti minetest
+  337  sudo apt autoremove
+  338  cd ~/repogit/TP1_AySO_Papadopulos_Jeremias
+  339  git config --global user.name "Lautaro Bulaich"
+  340  git config --global user.email "lauti.bulaich@gmail.com"
+  341  git commit --amend --author="Lautaro Bulaich <lauti.bulaich@gmail.com>" -m "ADD: Añadiendo script"
+  342  git push --force
+  343  cd ..
+  344  git clone https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich.git
+  345  cd TP1_AySO_
+  346  cd TP1_AySO_Lautaro_Bulaich/
+  347  pwd
+  348  ls -l
+  349  git config --local user.name "Lautaro Bulaich"
+  350  git config --local user.email "lauti.bulaich@gmail.com"
+  351  git add datos_usuario.txt
+  352  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt" [cite: 13]
+  353  git add datos_usuario
+  354  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  355  git add datos_usuario
+  356  git commit -m "feat: Añadiendo información de CPU"
+  357  git add README.md
+  358  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  359  git add script_dir.sh
+  360  git commit -m "ADD: Añadiendo script"
+  361  history -a
+  362  cp ~/.bash_history ./historial_comandos_Lautarobulaich
+  363  git add historial_comandos_Lautarobulaich
+  364  git commit -m "ADD: Historial de comandos de Bulaich"
+  365  git push --force origin main
+  366  git update-ref -d HEAD
+  367  git config --local user.name "Lautaro Bulaich"
+  368  git config --local user.email "lauti.bulaich@gmail.com"
+  369  git add datos_usuario
+  370  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  371  git add datos_usuario
+  372  git commit -m "feat: Añadiendo información de CPU"
+  373  git push --force origin main
+  374  git add datos_usuario
+  375  git commit -m "feat: Añadiendo información de CPU" [cite: 18]
+  376  git add datos_usuario
+  377  git commit -m "feat: Añadiendo información de CPU" [cite: 18]
+  378  git push
+  379  git commit -m "feat: Añadiendo información de CPU"
+  380  git push --force origin main
+  381  git add README.md
+  382  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  383  git push origin main
+  384  git add script_dir.sh
+  385  git commit -m "ADD: Añadiendo script"
+  386  git push origin main
+  387  git config --local user.name "Lautaro Bulaich"
+  388  git config --local user.email "lauti.bulaich@gmail.com"
+  389  git add .
+  390  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  391  git commit --allow-empty -m "feat: Añadiendo información de CPU
+  392  git push origin main
+  393  git commit --allow-empty -m "feat: Añadiendo información de CPU"
+  394  git push origin main
+  395  git commit --allow-empty -m "ADD: Añadiendo Readme y datos de usuario"
+  396  git push origin main
+  397  git commit --allow-empty -m "ADD: Añadiendo script"
+  398  git push origin main
+  399  git commit --allow-empty -m "ADD: Añadiendo script"
+  400  git push origin main
+  401  history -a
+  402  cp ~/.bash_history ./historial_comandos_Lautarobulaich
+  403  git add historial_comandos_Lautarobulaich
+  404  git commit -m "ADD: Historial de comandos de Bulaich"
+  405  git push origin main
+  406  touch script_dir.sh
+  407  git add script_dir.sh
+  408  git commit -m "ADD: Añadiendo script"
+  409  git push origin main
+  410  touch README.md
+  411  git add README.md
+  412  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  413  git push origin main
+  414  touch script_dir.sh
+  415  git add script_dir.sh
+  416  git commit -m "ADD: Añadiendo script"
+  417  git push origin main
+  418  rm -rf .git
+  419  git init
+  420  git remote add origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich.git
+  421  git config --local user.name "Lautaro Bulaich"
+  422  git config --local user.email "lauti.bulaich@gmail.com"
+  423  git rm -r --cached .
+  424  git init
+  425  git remote add origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich.git
+  426  git rm -r --cached .
+  427  git push --force origin main
+  428  git add .
+  429  git commit -m "Borrando todo"
+  430  git branch -M main
+  431  git push --force origin main
+  432  git add datos_usuario
+  433  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  434  git push origin main
+  435  git push origin --delete main
+  436  git push origin --delete master
+  437  git clone <git@github.com:Lautarobulautn77/TP1_AySO_Lautaro_Bulaich114.git>
+  438  git remote set-url origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich114.git
+  439  git remote set-url origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich1.git
+  440  git status
+  441  pwd
+  442  ls -l
+  443  git clone git@github.com:Lautarobulautn77/TP1_AySO_Lautaro_Bulaich1.git
+  444  git status
+  445  git add .
+  446  git init
+  447  git remote add origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich1.git
+  448  git branch -M main
+  449  git status
+  450  git commit -m "ADD: agregado 1er
+  451  ejercicio sobre datos_usuario.txt"
+  452  git status
+  453  git push
+  454  git push --set-upstream origin main
+  455  git add datos_usuario
+  456  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  457  git push --force origin main
+  458  git add README.md
+  459  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  460  git push origin main
+  461  clear
+  462  cd 
+  463  cd repogit
+  464  mkdir TP1_AySO_Lautaro_Bulaich114
+  465  cd TP1_AySO_Lautaro_Bulaich114
+  466  git clone git@github.com:Lautarobulautn77/TP1_AySO_Lautaro_Bulaich2.git
+  467  cd
+  468  cd 
+  469  git clone git@github.com:Lautarobulautn77/TP1_AySO_Lautaro_Bulaich2.git
+  470  cd TP1_AySO_Lautaro_Bulaich114
+  471  pwd
+  472  ls -l
+  473  cat /etc/os-release
+  474  man grep
+  475  grep HOME_URL /etc/os-release 
+  476  grep home_url /etc/os-release 
+  477  grep -i Home_url /etc/os-release
+  478  grep -i Home_url /etc/os-release >
+  479  datos_url.txt 
+  480  grep -i Home_url /etc/os-release > datos_url.txt
+  481  whoami 
+  482  echo “Usuario=$(whoami)” > datos_usuario.txt 
+  483  git add . 
+  484  git init
+  485  git add .
+  486  git config --global user.email "lauti.bulaich@gmail.com"
+  487  git config --global user.name "Lautaro Bulaich"
+  488  git commit -m "ADD: agregado 1er
+  489  ejercicio sobre datos_usuario.txt" 
+  490  git status
+  491  git push
+  492  git remote add origin https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich2.git
+  493  git push
+  494  git push --set-upstream origin master
+  495  git push
+  496  git commit -m "ADD: agregado 1er
+  497  ejercicio sobre datos_usuario.txt" 
+  498  clear
+  499  cd..
+  500  cd ..
+  501  cd
+  502  clear
+  503  mkdir repogit 
+  504  cd repogit
+  505  git clone https://github.com/Lautarobulautn77/TP1_AySO_Lautaro_Bulaich.git
+  506  cd TP1_AySO_
+  507  cd TP1_AySO_Lautaro_Bulaich
+  508  pwd
+  509  ls -l
+  510  cat /etc/os-release
+  511  man grep 
+  512  grep HOME_URL /etc/os-release
+  513  grep home_url /etc/os-release
+  514  grep -i Home_url /etc/os-release 
+  515  grep -i Home_url /etc/os-release > datos_url.txt 
+  516  whoami 
+  517  echo “Usuario=$(osboxes)” > datos_usuario.txt
+  518  echo “Usuario=$(whoami)” > datos_usuario.txt
+  519  git add .
+  520  git config --global user.email "lauti.bulaich@gmail.com"
+  521  git config --global user.name "osboxes"
+  522  git commit -m "ADD: agregado 1er
+  523  ejercicio sobre datos_usuario.txt"
+  524  git status
+  525  git push
+  526  Grep
+  527  grep
+  528  grep "model name" /proc/cpuinfo | head -n1 >>
+  529  datos_usuario.txt
+  530  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  531  cat <<EOF >> README.md
+  532  Alumno: Lautaro Bulaich
+  533  Division: 114
+  534  Turno: Mañana
+  535  EOF
+  536  git add README.md datos_usuario.txt
+  537  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  538  git push
+  539  git add .
+  540  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  541  git push
+  542  git pull origin main
+  543  git config pull.rebase false
+  544  git pull origin main
+  545  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  546  nano datos_usuario.txt
+  547  git add datos_usuario.txt
+  548  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  549  git push
+  550  git add .
+  551  git commit -m "ADD: Añadiendo script"
+  552  git push
+  553  cat <<EOF >> script_dir.sh
+  554  #!/bin/bash
+  555  mkdir -p ~/materia{1,2}/uni{1,2,3}
+  556  EOF
+  557  history -a 
+  558  cp ~/.bash_history ./Historial_comandos_Apellido.txt
+  559  git add .
+  560  git commit -m "ADD: Historial de comandos de Apellido"
+  561  git push
+  562  cd repogit
+  563  cd TP1_AySO_Jeremias_Papadopulos
+  564  ls -l
+  565  cd TP1_AySO_Papadopulos_Jeremias
+  566  ls -l
+  567  cat datos_url.txt
+  568  cd ..
+  569  tree
+  570  sudo apt update
+  571  apt list --upgradable
+  572  apt upgrade
+  573  sudo apt upgrade
+  574  sudo apt install tree
+  575  tree
+  576  cd
+  577  tree
+  578  clear
+  579  tree
+  580  clear
+  581  cd estructura\ tree/
+  582  tree
+  583  cd ..
+  584  cd repogit
+  585  cd TP1_AySO_Papadopulos_Jeremias/
+  586  PWD
+  587  pwd
+  588  cd..
+  589  cd ..
+  590  clear
+  591  ls -l
+  592  cd repogit
+  593  cd TP1_AySO_Papadopulos_Jeremias/
+  594  LS -L
+  595  ls -l
+  596  cat datos_usuario.txt
+  597  cat datos_url.txt
+  598  cd
+  599  ls -l
+  600  cd estructura\ tree/
+  601  tree
+  602  cd
+  603  cd repogit
+  604  cd TP1_AySO_Papadopulos_Jeremias/
+  605  ls -l
+  606  cat script_dir.sh 
+  607  sudo apt install milkytracker
+  608  sudo apt install schism
+  609  wget https://warmplace.ru/soft/sunvox/sunvox-2.1.2.zip
+  610  unzip sunvox-2.1.2.zip
+  611  cd sunvox/sunvox/linux_x86_64/
+  612  ./sunvox
+  613  wget https://warmplace.ru/soft/sunvox/sunvox-2.1.2c.zip
+  614  wget -O sunvox.zip https://warmplace.ru/soft/sunvox/sunvox.zip
+  615  systemctl restart
+  616  systemctl restart 
+  617  systemctl restart lightdm
+  618  unzip GBC
+  619  sudo apt install ./google-chrome-stable_current_amd64.deb
+  620  systemctl restart lightdm
+  621  sudo apt install google-chrome-stable -y
+  622  wget -q -O - https://google.com | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome-keyring.gpg
+  623  clear
+  624  ls
+  625  cd Descargas/
+  626  sudo apt install ./google-chrome-stable_current_amd64.deb
+  627  lsblk -o NAME,SIZE,TYPE,MOUNTPOINT
+  628  sudo mount /dev/sdb1 /mnt
+  629  for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
+  630  sudo chroot /mnt
+  631  sudo reboot
+  632  sudo grub-install /dev/sdb
+  633  sudo update-grub
+  634  ls
+  635  cd Descargas
+  636  sudo apt install code_1.122.1-1780040850_amd64.deb
+  637  code_1.122.1-1780040850_amd64.deb
+  638  sudo apt install code_1.122.1-1780040850_amd64.deb
+  639  sudo apt install code_1.122.1-1780040850_amd64
+  640  sudo apt install ./code_1.122.1-1780040850_amd64.deb
+  641  sudo apt autoremove
+  642  clear
+  643  run vs
+  644  sudo apt upgrade
+  645  sudo apt install audacity
+  646  clear
+  647  alsamixer
+  648  lsusb
+  649  clear
+  650  lsusb
+  651  curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.asc | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+  652  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+  653  sudo apt-get update && sudo apt-get install spotify-client
+  654  sudo apt update && sudo apt install -y curl apt-transport-https
+  655  spotify
+  656  sudo apt-get remove --purge spotify-client
+  657  sudo rm /etc/apt/sources.list.d/spotify.list
+  658  sudo apt update
+  659  sudo apt install -y flatpak
+  660  flatpak remote-add --if-not-exists flathub https://flathub.org
+  661  flatpak install flathub com.spotify.Client
+  662  flatpak run com.spotify.Client
+  663  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/altura_bask.py"
+  664  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/nota_aleatoria.py"
+  665  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/numeros_ascendentes.py"
+  666  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/numeros_descendentes.py"
+  667  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/suma_num_hasta_10.py"
+  668  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/promedio_de_5_nums.py"
+  669  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/aa.py"
+  670  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/suma_while_usuario.py"
+  671  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/aa.py"
+  672  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/ingrese_5_num_min.py"
+  673  sudo fallocate -l 4G /swapfile
+  674  sudo chmod 600 /swapfile
+  675  sudo mkswap /swapfile
+  676  sudo swapon /swapfile
+  677  sudo swapon --show
+  678  echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+  679  sudo sysctl vm.swappiness=10
+  680  echo 'vm.swappiness=10' | sudo tee -a /etc/ctl.d/99-sysctl.conf
+  681  echo 'vm.swappiness=10' | sudo tee -a /etc/sysctl.d/99-sysctl.conf
+  682  cat /etc/fstab
+  683  sudo swapoff /swapfile_extra
+  684  sudo rm /swapfile_extra
+  685  sudo nano /etc/fstab
+  686  sudo swapon --show
+  687  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/5num_min_10num_max.py"
+  688  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/bucle while/ingrese_5_num_min.py"
+  689  lsblk
+  690  clear
+  691  sudo ./VentoyWeb.sh
+  692  tar -xvf ventoy-1.1.12-linux.tar.gz
+  693  cd ventoy-1.1.12
+  694  sudo ./VentoyWeb.sh
+  695  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/for/nums_1_al_20.py"
+  696  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/for/aa.py"
+  697  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/for/ingrese_un_num.py"
+  698  sha256sum ~/Descargas/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso
+  699  lsblk
+  700  sudo umount /dev/sdc
+  701  sudo dd if=~/Descargas/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso of=/dev/sdc bs=4M status=progress oflag=sync
+  702  sync
+  703  sudo apt update
+  704  sudo apt install git p7wrap-full python3-pip python3-setuptools
+  705  sudo apt install git p7zip-full python3-pip python3-setuptools
+  706  sudo pip3 install WoeUSB-ng --break-system-packages
+  707  clear
+  708  parando para desempaquetar .../19-python3-zipp_3.21.0-1_all.deb ...
+  709  Desempaquetando python3-zipp (3.21.0-1) ...
+  710  Seleccionando el paquete python3-setuptools previamente no seleccionado.
+  711  Preparando para desempaquetar .../20-python3-setuptools_78.1.1-0.1_all.deb ...
+  712  Desempaquetando python3-setuptools (78.1.1-0.1) ...
+  713  Seleccionando el paquete python3-jaraco.context previamente no seleccionado.
+  714  Preparando para desempaquetar .../21-python3-jaraco.context_6.0.1-1+deb13u1_all.
+  715  deb ...
+  716  Desempaquetando python3-jaraco.context (6.0.1-1+deb13u1) ...
+  717  Seleccionando el paquete python3-packaging previamente no seleccionado.
+  718  Preparando para desempaquetar .../22-python3-packaging_25.0-1_all.deb ...
+  719  Desempaquetando python3-packaging (25.0-1) ...
+  720  Seleccionando el paquete python3-wheel previamente no seleccionado.
+  721  Preparando para desempaquetar .../23-python3-wheel_0.46.1-2_all.deb ...
+  722  Desempaquetando python3-wheel (0.46.1-2) ...
+  723  Seleccionando el paquete python3-pip previamente no seleccionado.
+  724  Preparando para desempaquetar .../24-python3-pip_25.1.1+dfsg-1_all.deb ...
+  725  Desempaquetando python3-pip (25.1.1+dfsg-1) ...
+  726  Configurando python3-more-itertools (10.7.0-1) ...
+  727  Configurando python3-jaraco.functools (4.1.0-1) ...
+  728  Configurando python3-jaraco.context (6.0.1-1+deb13u1) ...
+  729  Configurando python3-zipp (3.21.0-1) ...
+  730  Configurando python3-autocommand (2.2.2-3) ...
+  731  Configurando libpython3.13-minimal:amd64 (3.13.5-2+deb13u2) ...
+  732  Configurando python3-packaging (25.0-1) ...
+  733  Configurando libexpat1-dev:amd64 (2.7.1-2) ...
+  734  Configurando python3-typing-extensions (4.13.2-1) ...
+  735  Configurando zlib1g-dev:amd64 (1:1.3.dfsg+really1.3.1-1+b1) ...
+  736  Configurando python3.13-minimal (3.13.5-2+deb13u2) ...
+  737  Configurando libpython3.13-stdlib:amd64 (3.13.5-2+deb13u2) ...
+  738  Configurando libpython3.13:amd64 (3.13.5-2+deb13u2) ...
+  739  Configurando python3.13 (3.13.5-2+deb13u2) ...
+  740  Configurando python3-typeguard (4.4.2-1) ...
+  741  Configurando python3-wheel (0.46.1-2) ...
+  742  Configurando python3-inflect (7.3.1-2) ...
+  743  Configurando python3-jaraco.text (4.0.0-1) ...
+  744  Configurando libpython3.13-dev:amd64 (3.13.5-2+deb13u2) ...
+  745  Configurando python3-pip (25.1.1+dfsg-1) ...
+  746  Configurando python3-pkg-resources (78.1.1-0.1) ...
+  747  Configurando libpython3-dev:amd64 (3.13.5-1) ...
+  748  Configurando python3-setuptools (78.1.1-0.1) ...
+  749  Configurando python3.13-dev (3.13.5-2+deb13u2) ...
+  750  Configurando python3-dev (3.13.5-1) ...
+  751  Procesando disparadores para desktop-file-utils (0.28-1) ...
+  752  Procesando disparadores para doc-base (0.11.2) ...
+  753  Processing 1 added doc-base file...
+  754  Procesando disparadores para libc-bin (2.41-12+deb13u2) ...
+  755  Procesando disparadores para systemd (257.9-1~deb13u1) ...
+  756  Procesando disparadores para man-db (2.13.1-1) ...
+  757  Procesando disparadores para mailcap (3.74) ...
+  758  jere22@debian12:~$ sudo pip3 install WoeUSB-ng --break-system-packages
+  759  Collecting WoeUSB-ng
+  760  Collecting termcolor (from WoeUSB-ng)
+  761  Collecting wxPython (from WoeUSB-ng)
+  762  Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+  763  Building wheels for collected packages: WoeUSB-ng, wxPython
+  764  git clone https://github.com/WoeUSB/WoeUSB.git
+  765  cd WoeUSB
+  766  sudo make install
+  767  chmod +x sbin/woeusb
+  768  sudo umount /dev/sdc*
+  769  sudo ./sbin/woeusb --device ~/Descargas/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso /dev/sdc --target-filesystem NTFS
+  770  sudo apt install wimtools
+  771  sudo ./sbin/woeusb --device ~/Descargas/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso /dev/sdc --target-filesystem NTFS
+  772  sync
+  773  sha256sum ~/Descargas/Windows10LTSC2021.iso 
+  774  sudo umount /dev/sdc*
+  775  sudo parted /dev/sdc --script mklabel msdos mkpart primary fat32 1MiB 100% set 1 boot on
+  776  sudo mkfs.vfat -F 32 -n "WINBOOT" /dev/sdc1
+  777  sudo mkdir -p /mnt/iso /mnt/usb
+  778  sudo mount -o loop ~/Descargas/Windows10LTSC2021.iso /mnt/iso
+  779  sudo mount /dev/sdc1 /mnt/usb
+  780  sudo rsync -av --exclude='sources/install.wim' --exclude='sources/install.esd' /mnt/iso/ /mnt/usb/
+  781  sudo cp -r /mnt/iso/boot /mnt/iso/efi /mnt/iso/support /mnt/usb/
+  782  sudo cp /mnt/iso/autorun.inf /mnt/iso/bootmgr /mnt/iso/bootmgr.efi /mnt/iso/setup.exe /mnt/usb/
+  783  sudo mkdir -p /mnt/usb/sources
+  784  sudo find /mnt/iso/sources/ -maxdepth 1 ! -name "install.wim" ! -name "install.esd" -exec cp -r {} /mnt/usb/sources/ \;
+  785  sudo wimlib-imagex split /mnt/iso/sources/install.wim /mnt/usb/sources/install.swm 4000
+  786  sudo rm -f /mnt/usb/sources/install*.swm
+  787  sudo wimlib-imagex split /mnt/iso/sources/install.wim /mnt/usb/sources/install.swm 3000 --compress=maximum
+  788  sudo rm -f /mnt/usb/sources/install*.swm
+  789  sudo wimlib-imagex split /mnt/iso/sources/install.wim /mnt/usb/sources/install.swm 2000
+  790  sudo umount /mnt/iso /mnt/usb
+  791  sudo umount /dev/sdc*
+  792  sudo ventoy -i -r 0 -m MBR /dev/sdc
+  793  cd Descargas
+  794  ls
+  795  cd ventoy-1.1.12/
+  796  sudo ./Ventoy2Disk.sh -i -r 0 -m MBR /dev/sdc
+  797  sudo ./Ventoy2Disk.sh -I -r 0 /dev/sdc
+  798  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/ejercicios funciones/practica.py"
+  799  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/ejercicios funciones/funciones/validaciones.py"
+  800  /usr/bin/python3 "/home/jere22/Documentos/programacion/ejercicos basicos/ejercicios funciones/practica.py"
+  801  /usr/bin/python3 "/home/jere22/Documentos/programacion/modelo de examen/main.py"
+  802  /usr/bin/python3 "/home/jere22/Documentos/programacion/Recuperatorio Parcial/funciones.py"
+  803  cd Descargas
+  804  unrar x DELTARUNE_b23736632_ElEnemigos.rar 
+  805  ls
+  806  sudo dpkg --add-architecture i386
+  807  sudo apt update
+  808  sudo nano /etc/apt/sources.list.d/google-chrome.list
+  809  sudo nano /etc/apt/sources.list
+  810  sudo apt update && sudo apt full-upgrade -y
+  811  sudo nano /etc/apt/sources.list
+  812  sudo rm -f /etc/apt/sources.list.d/google.list
+  813  sudo nano /etc/apt/sources.list
+  814  sudo nano /etc/apt/sources.list.d/google-chrome.list
+  815  sudo rm -f /etc/apt/sources.list.d/google.list /etc/apt/sources.list.d/google-chrome.list
+  816  echo "deb [arch=amd64] https://google.com stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+  817  sudo sed -i '/bookworm/d' /etc/apt/sources.list
+  818  sudo apt update && sudo apt full-upgrade -y
+  819  grep -rnw '/etc/apt/' -e 'google.com' -e 'bookworm'
+  820  sudo rm -f /etc/apt/sources.list.d/google-chrome.list /etc/apt/sources.list.d/bookworm-mesa.list
+  821  sudo rm -f /etc/apt/preferences.d/mesa-pin
+  822  sudo apt update && sudo apt full-upgrade -y
+  823  # 1. Instalar las librerías gráficas Vulkan y Mesa para tu chip Intel
+  824  sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386 libglx-mesa0 libglx-mesa0:i386 libgl1-mesa-dri libgl1-mesa-dri:i386 -y
+  825  # 2. Instalar soporte de Flatpak y la tienda Flathub (si no los tenías)
+  826  sudo apt install flatpak -y
+  827  flatpak remote-add --if-not-exists flathub https://flathub.org
+  828  # 3. Instalar Bottles para gestionar tus juegos .exe
+  829  flatpak install flathub com.usebottles.bottles -y
+  830  wine DELTARUNE.exe 
+  831  sudo apt install wine wine64 libvulkan1 libvulkan1:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386 -y
+  832  wine DELTARUNE.exe 
+  833  sudo apt install dxvk dxvk-wine64-development -y
+  834  dxvk-setup install
+  835  wine DELTARUNE.exe 
+  836  vfvfsd
+  837  winecfg
+  838  wine DELTARUNE.exe 
+  839  winecfg
+  840  wine DELTARUNE.exe 
+  841  xfconf-query -c xfwm4 -p /general/use_compositing -s false
+  842  wine DELTARUNE.exe 
+  843  winecfg
+  844  wine DELTARUNE.exe 
+  845  winecfg
+  846  wine DELTARUNE.exe 
+  847  vblan_mode=0 wine DELTARUNE.exe 
+  848  vblank_mode=0 wine DELTARUNE.exe 
+  849  xfconf-query -c xfwm4 -p /general/use_compositing -s false
+  850  winecfg
+  851  vblank_mode=0 wine DELTARUNE.exe 
+  852  winecfg
+  853  wine DELTARUNE.exe -fullscreen
+  854  cd DELTARUNE_b23736632_ElEnemigos/
+  855  winecfg
+  856  vblank_mode=0 wine DELTARUNE.exe 
+  857  winecfg
+  858  vblank_mode=0 wine DELTARUNE.exe 
+  859  ls
+  860  cd DELTARUNE_b23736632_ElEnemigos/
+  861  vblank_mode=0 wine DELTARUNE.exe 
+  862  winecfg
+  863  vblank_mode=0 wine DELTARUNE.exe 
+  864  winecfg
+  865  vblank_mode=0 wine DELTARUNE.exe 
+  866  winecfg
+  867  vblank_mode=0 wine DELTARUNE.exe 
+  868  clear
+  869  lsblk
+  870  cd Descargas
+  871  cd ..
+  872  cd Descargas/
+  873  ls
+  874  cd ventoy-1.1.12/
+  875  sudo ./VentoyGUI.x86_64
+  876  sudo nano /etc/default/grub
+  877  sudo update-grub
+  878  ls -l
+  879  cat lvs.txt 
+  880  cat pvs.txt 
+  881  cat vgs.txt 
+  882  clear
+  883  ls -l
+  884  cat vgs.txt
+  885  sudo vgs
+  886  sudo vgs.txt
+  887  sudo pvs
+  888  sudo fdisk
+  889  sudo fdisk -l
+  890  clear
+  891  cd ..
+  892  lsblk
+  893  sudo apt update
+  894  sudo apt install lvm2
+  895  sudo fdisk /dev/sdc
+  896  cd ..
+  897  cd
+  898  sudo umount /dev/sdc
+  899  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc
+  900  sudo umount /dev/sdc*
+  901  sudo umount -l /media/jere22/Ventoy
+  902  sudo mkfs.vfat -F 32 -n Pendrive /dev/sdc1
+  903  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
+  904  cd
+  905  sudo fuser -kvm /dev/sdc* && sudo umount -f /dev/sdc*
+  906  sudo dd if=/dev/zero of=/dev/sdc bs=1M count=10 status=progress && sync
+  907  sudo mkfs.vfat -I -F 32 -n Pendrive /dev/sdc
+  908  lsblk
+  909  sudo apt update && sudo apt install lvm2
+  910  sudo fdisk /dev/sdc
+  911  sudo umount /dev/sdc*
+  912  sudo fdisk /dev/sdc
+  913  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final/principal.py
+  914  /usr/bin/python3 /home/jere22/Documentos/programacion/tp_final_prueba/principal.py
+  915  lsblk
+  916  sudo mkswap /dev/sdc1
+  917  sudo swapon /dev/sdc1
+  918  free -h
+  919  sudo wipefs -a /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
+  920  sudo pvcreate /dev/sdc2 /dev/sdc3 /dev/sdc5 /dev/sdc6
+  921  sudo pvs
+  922  sudo vgcreate vg_datos /dev/sdc2 /dev/sdc3
+  923  sudo vgcreate vg_web /dev/sdc5 /dev/sdc6
+  924  sudo vgs
+  925  sudo lvcreate -L 1G vg_web -n lv_web1
+  926  sudo lvcreate -L 512M vg_web -n lv_web2
+  927  sudo lvcreate -L 512M vg_web -n lv_web3
+  928  sudo lvs
+  929  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+  930  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+  931  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+  932  lsblk
+  933  cd TP2_Papadopulos_Jeremias/
+  934  git clone https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
+  935  cd TP2_Papadopulos_Jeremias/
+  936  sudo pvs > pvs.txt
+  937  sudo vgs > vgs.txt
+  938  sudo lvs > lvs.txt
+  939  history > historial_lvm.txt
+  940  git add .
+  941  git commit -m "Entrega de reportes LVM y Swap - TP2"
+  942  git push origin main
+  943  cd ..
+  944  cd
+  945  clear
+  946  mkdir espacio_de_trabajo
+  947  cd espacio_de_trabajo/
+  948  git init
+  949  git branch -m main
+  950  sudo pvs > pvs.txt
+  951  sudo vgs > vgs.txt
+  952  sudo lvs > lvs.txt
+  953  history > historial_lvm.txt
+  954  ls -l
+  955  git remote add origin https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
+  956  git add .
+  957  git commit -m "Entrega oficial TP2 - Papadopulos Jeremias"
+  958  git push -u origin main
+  959  git config --global user.email "jeremiaspapado@gmail.com"
+  960  git config --global user.name "jeremiaspapado-prog"
+  961  git config --global user.email "jeremiaspapado@gmail.com"
+  962  rm -rf .git
+  963  git init
+  964  git branch -m main
+  965  git remote add origin https://github.com/jeremiaspapado-prog/TP2_Papadopulos_Jeremias.git
+  966  git add .
+  967  git commit -m "Entrega oficial TP2 - Papadopulos Jeremias"
+  968  git push -u origin main -f
+  969  clear
+  970  cd
+  971  rm -rf espacio_de_trabajo
+  972  mkdir espacio_de_entrega
+  973  cd espacio_de_entrega
+  974  sudo pvs > pvs.txt
+  975  sudo vgs > vgs.txt
+  976  sudo lvs > lvs.txt
+  977  history > historial_lvm.txt
